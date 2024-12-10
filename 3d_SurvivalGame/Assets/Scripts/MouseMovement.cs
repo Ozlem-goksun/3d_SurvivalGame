@@ -25,6 +25,8 @@ public class MouseMovement : MonoBehaviour
         turn.x += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         turn.y += Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
+        turn.y = Mathf.Clamp(turn.y, -90f, 90f);
+
         transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
     }
 }
