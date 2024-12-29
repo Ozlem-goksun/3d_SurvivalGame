@@ -11,3 +11,5 @@ This project is my first attempt at developing open world games. I created this 
 <p>First of all, let's add a character to our playing area and give it movement</p>
 <p>As you can see below, our character can look 360 ° to the right and left, while he can look up and down within certain limits.We do this because we want a more realistic perspective.Of course, if you have the ability to look around by somersaulting, you can add a more free perspective to your character.</p>
 
+![CharacterControllerGif](https://drive.google.com/drive/folders/1v75mxiSXazBKRsVKRGo6OMrfo0NsR568)
+
